@@ -1,0 +1,19 @@
+title: ToddlerGuidesforExplorationFundamentals
+tagline: A brand new course on Learning Lab
+description: >-
+  Exploring Adventure in field trips and virtual presentation of Content that
+  can be enjoyed and Educate the minds of the Future 
+template:
+  repo: toddlerguidesforexplorationfundamentals-template
+  name: toddlerguidesforexplorationfundamentals
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
